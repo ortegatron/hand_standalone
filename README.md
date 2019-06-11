@@ -6,7 +6,7 @@ Detects hands keypoints seen on any video or live camera.
     <img src="demo.gif", width="450">
 </p>
 
-** Project updated! Finally I could manage to get the time to update it to the last changes on OpenPose and add some more functionality :) **
+**Project updated!** Finally I could manage to get the time to update it to the last changes on OpenPose and add some more functionality :) 
 
 This hand detector is currently made by integrating two third party tools:
 * [Handtracking by Victor Dibia](https://github.com/victordibia/handtracking) - This neural network is used to detect the bounding boxes of hands seen on a image
