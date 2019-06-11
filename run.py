@@ -76,8 +76,6 @@ if __name__ == '__main__':
         fps = num_frames / elapsed_time
         draw_util.draw_fps_on_image("FPS : " + str(int(fps)), image_np)
 
-        out.write(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
-            out.release()
             break
