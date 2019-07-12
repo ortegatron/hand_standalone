@@ -6,7 +6,7 @@ Detects hands keypoints seen on any video or live camera.
     <img src="demo.gif", width="450">
 </p>
 
-**Project updated!** Finally I could manage to get the time to update it to the last changes on OpenPose and add some more functionality :) 
+**Project updated!** I wrote a Medium Story making an introduction on the problem of hand recognition, how it's done with OpenPose and why this Standalone Hand Keypoint Detector is needed. Have a read there! https://medium.com/@apofeniaco/into-the-problem-of-hand-recognition-da30797450fe
 
 This hand detector is currently made by integrating two third party tools:
 * [Handtracking by Victor Dibia](https://github.com/victordibia/handtracking) - This neural network is used to detect the bounding boxes of hands seen on a image
